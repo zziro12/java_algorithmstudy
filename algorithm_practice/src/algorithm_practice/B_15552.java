@@ -18,6 +18,7 @@ public class B_15552 {
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
 			
+			
 			Array[i] = a + b ;
 		}
 		
@@ -25,7 +26,6 @@ public class B_15552 {
 			bw.write(String.valueOf(output));
 			bw.newLine();
 		}
-		
 		bw.flush();
 	}
 
